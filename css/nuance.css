@@ -1,0 +1,35 @@
+#nuanceWhole{
+    width:100%;
+    /* height:100%; */
+    position: absolute;
+}
+
+#nuanceContainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top:-5%;
+}
+
+#nuanceBack{
+    position:fixed;
+    color: #63A3A3;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 15%;
+    margin-top: 7%;
+    z-index:3;
+    margin-left: 2%;
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
+    font-size:1.5vw;
+}
+#nuanceBack:hover{
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    background-color: #63A3A3;
+}
+
