@@ -19,269 +19,61 @@ html {
 #about {
     display: none;
 }
-    
-#aboutBanner {
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-color: #0000;
-    background-image: url("/images/learnMore1.png");
-    background-position: center top;
-    position: absolute;
-    margin-top: 221%;
-    right:24%;
-    width: 40%;
-    height: 10%;
-    border: none;
-    cursor:pointer;
-    border: 3px solid black;
-}
 
-
-#aboutOverlay {
-    position: fixed;
-    display: none;
-    width: 100%; 
-    height: 100%; 
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color:rgba(255,255,255, 0.75);
-    z-index: 3; 
-}
-
-    #aboutOverlayContainer {
-        display:flex;
-        position:relative;
-        margin-top: 5%;
-        margin-left:5%;
-        width: 90%;
-        height:90%; 
-        background-color: #C29596;
-        border-radius: 5px;
-        overflow-y: scroll;
-        /* border: 3px solid black; */
-    }
-
-    #aboutOverlayPic {
-    position:absolute;
-    display:flex;
-    width:90%;
-    height:100%;
-    margin-top:90px;
-    margin-left:5%;
-    /* border: 3px solid blue;  */
-    /* overflow-y: scroll;  */
-    }
     
 #portraitimg {
     position: absolute;
-    display:block;
-    /* max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto; */
-    width: 100%;
-    /* border-radius: 5%; */
-    /* border: solid 10px white; */
+        display:block;
+        width: 110%;
+        margin-top: -15%;
 } 
-
-#aboutOverlayText{
-    width:100%;
-    height: 100%;
-    position: absolute;
+#aboutp{
+    margin-top: 110%;
 }
 
-#aboutOverlayText .overlayP {
-    text-align: center;
-    margin-top: 430px;
-    width: 80%;
-    margin-left: 10%;
-    padding-bottom:50px;
-}
-
-.overlayH {
-    text-align: center;
-    margin-top: 5%;  
-}
-.overlayP {
-    text-align: center;
-    margin-top: 105%;
-    width: 80%;
-    margin-left: 10%;
-    padding-bottom:50px;
-}
-
-.closeButton{
-    background-repeat: no-repeat;
-    background-color: #0000;
-    background-size: contain;
-    position: fixed;
-    width: 30px;
-    height: 30px;
-    border: none;
-    z-index: 4;
-    left: 86.5%;
-    top: 30px;
-}
-
-#aboutOverlayClose {
-    background-image: url("/images/closePink1.png");
-}
 
 #work {
     display: none;
 }
 
-#workBanner {
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-color: #0000;
-    background-image: url("/images/seeExamples1.png");
+#thumbnails{
     position: absolute;
-    margin-top: 436%;
-    right:26%;
-    width: 40%;
-    height: 15%;
-    border: none;
-    cursor: pointer;
-    /* border: 3px solid black; */
+    height: 225%;
+    width: 90%;
+    margin-left: 5%;
 }
 
-#workOverlay {
-    position: fixed;
-    display: none;
-    width: 100%; 
-    height: 100%; 
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color:rgba(255,255,255, 0.75);
-    /* background-color: rgba(0,0,0,0.7);  */
-    z-index: 3; 
-    /* border: 3px solid blue; */
-}
-
-    #workOverlayContainer {
-        display:flex;
-        position:relative;
-        margin-top: 5%;
-        margin-left:5%;
-        width: 90%;
-        height:90%; 
-        background-color: #C88161;
-        border-radius: 5px;
-        overflow-y: scroll;
-        /* border: 3px solid black; */
-    }
-
-    #workOverlayText{
-        width:100%;
-        height: 100%;
-        position: absolute;
-}
-
-#workOverlayText .overlayP {
-    margin-top:  -4%;
-} 
-#workOverlayText .overlayH {
-    margin-top:  5%;
-} 
-
-    #workOverlayLinks {
+#dontShoot{
     position:absolute;
-    width:100%;
     height:100%;
-    margin-top: 60%;
-    /* margin-left: 50%; */
-    /* border: 3px solid blue;   */
-    }
-
-    #workOverlayClose {
-    background-image: url("/images/closeOrange1.png");
-    
+    width: 100%;
 }
 
 #dontShootThmb {
-    position: absolute;
-    width: 80%;
-    margin-left: 5%;
-    margin-top: 5%;
-    border: 25px solid transparent;
-    border-radius: 2%;
-    border-image: none;
+    position: relative;
+        width: 100%;
+        margin-top: 105%;
+        border-radius: 2%;
+        padding-bottom: 20px;
+}
+#nuance{
+    position:absolute;
+    height:100%;
+    width: 100%;
+    cursor:pointer;
 }
 
 #nuanceThmb {
-    position: absolute;
-    width: 80%;
-    margin-left: 5%;
-    margin-top: 85%;
-    border: 25px solid transparent;
-    border-radius: 2%;
-    border-image: none;
+    position: relative;
+        width: 100%;
+        border-radius: 2%;
+        z-index: 3;
 }
 
 #artistry {
     display:none;
     }
 
-#artistryBanner {
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-color: #0000;
-    background-image: url("/images/viewgallery1.png");
-    background-position: center top;
-    position: absolute;
-    margin-top: 659%;
-    right:24%;
-    width: 40%;
-    height: 15%;
-    border: none;
-    cursor: pointer;
-    /* border: 3px solid black; */
-    }
-
-#galleryOverlayClose {
-    background-image: url("/images/closeGreen1.png");
-}
-
-#galleryOverlay {
-    position: fixed;
-    display: none;
-    width: 100%; 
-    height: 100%; 
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color:rgba(255,255,255, 0.75);
-    overflow-y: scroll;
-    z-index: 3; 
-    }
-
-    #galleryOverlayContainer {
-        display:flex;
-        position:relative;
-        margin-top: 5%;
-        margin-left:5%;
-        width: 90%;
-        height:90%; 
-        background-color: #7E8372;
-        border-radius: 5px;
-        overflow-y: scroll;
-        /* border: 3px solid black; */
-    }
-
-    #galleryOverlayText{
-    background-color:#7E8372 ;
-    position: absolute; 
-    width: 90%;
-    height: 50px;
-    /* border: 3px solid black; */
-    margin-left: 5%;
-    }
 
 #resumeH {
     width: 100%;
@@ -300,95 +92,28 @@ html {
     
 #resumePic {
     position: absolute;
-    display:block;
-    width: 100%;
-    margin-top: 130px;
-    border: 5px solid white;
-    border-radius: 1%;
-    
+        display:block;
+        width: 100%;
+        border: 5px solid white;
+        border-radius: 1%;
 } 
-
-#downloadResume{
-    position: absolute;
-    width: 50%;
-    margin-left: 30%;
-    margin-top: 700px;
-    padding-bottom: 30px;
-}
 
 #contact {
     display: none;
     }
 
-#contactBanner {
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-color: #0000;
-    background-image: url("/images/getInTouch1.png");
-    position: absolute;
-    margin-top: 883%;
-    right:24.5%;
-    width: 40%;
-    height: 10%;
-    border: none;
-    cursor: pointer;
-}
 
-#contactOverlay {
-    position: fixed;
-    display: none;
-    width: 100%; 
-    height: 100%; 
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color:rgba(255,255,255, 0.75);
-    z-index: 3; 
-    }
-
-    #contactOverlayContainer {
-    display:flex;
-    position:relative;
-    margin-top: 5%;
-    margin-left:5%;
-    width: 90%;
-    height:90%; 
-    border-radius: 5px;
-    overflow-y: scroll;
-    background-color: #C6A85F; 
-    }
-
-    #contactOverlayPic {
-    position:absolute;
-    display:flex;
-    /* align-items: center;
-    justify-content: center; */
-    width:100%;
-    height:100%;
-    margin-top: 50px;
-    }
     
 #windowPic {
     position: absolute;
-    display:flex;
-    width: 80%;
+    display:block;
+    width: 85%;
+    margin-top: -18%;
     margin-left: 10%;
-    border-radius: 5%;
 } 
 
-#contactOverlayText{
-    width:100%;
-    height: 100%;
-    position: absolute;
-}
-
-#contactOverlayText .overlayP{
-    margin-top: 350px;
-}
-
-#contactOverlayClose {
-    background-image: url("/images/closeYellow1.png");
+#contactp{
+    margin-top: 85%;
 }
 
 #emailLink:link{
@@ -437,7 +162,7 @@ width: 100%;
 
 #aboutMe {
 position: absolute;
-margin-top:-828.5%;
+margin-top:-1065%;
 margin-left: 30%;
 width:50%;
 text-align: center;
@@ -449,7 +174,7 @@ display:none;
 
 #myWork {
 position: absolute;
-margin-top:-605%;
+margin-top:-827%;
 margin-left: 28%;
 width:55%;
 text-align: center; 
@@ -465,10 +190,23 @@ display:none;
 
 #ArtistryMe {
 position: absolute;
-margin-top:-384%;
+margin-top:-540%;
 margin-left: 28%;
 width:55%;
 text-align: center;
+}
+
+input[type=checkbox] {
+    display:none;
+}
+
+#resumePicContainer #resumePic {
+   /* margin:100px; */
+  transform: 0.25s ease;
+}
+
+input[type=checkbox]:checked ~ label > img {
+    transform: scale(1.8) translatex(-6%);
 }
 
 #scrollToArtistry {
@@ -477,7 +215,7 @@ display:none;
 
 #contactMe {
 position: absolute;
-margin-top:-161%;
+margin-top:-228%;
 margin-left: 28%;
 width:55%;
 text-align: center;
